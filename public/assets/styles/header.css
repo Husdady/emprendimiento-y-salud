@@ -1,0 +1,209 @@
+/*------------- Cabezera -------------*/
+header {
+  background-size: cover;
+  background-color: #d9af94;
+  background-repeat: no-repeat;
+  background-image: url('/assets/img/header/background-header.webp');
+}
+
+header .logo-omnilife {
+  width: 70%;
+  height: 534px;
+}
+
+/*------------- Navegación -------------*/
+#navigation {
+  color: #ffffff;
+  padding: .5% 5%;
+  line-height: initial;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-size: cover;
+  background-color: #68005B;
+  background-repeat: no-repeat;
+  background-color: var(--bg-darkpurple);
+  background-image: url('/assets/img/header/background-nav.webp');
+}
+
+#logo-seytu {
+  width: 147px;
+  height: 75px;
+}
+
+#navigation .navigation-item-wrapper .navigation-item {
+  border-radius: 30px;
+}
+
+#navigation .navigation-item-wrapper .navigation-item:hover {
+  color: var(--bg-yellow);
+  background-color: var(--bg-nav);
+}
+
+#navigation .navigation-item, .navigation-item {
+  font-family: 'Rubik', sans-serif;
+}
+
+#navigation .navigation-item-wrapper .navigation-item .link {
+  color: inherit;
+  padding: 10px 20px;
+}
+
+.navigation-item .link {
+  font-size: 15px;
+}
+
+.link, .link:active {
+  color: #000;
+  display: block;
+  padding: 5px 15px;
+}
+
+.link:hover {
+  color: var(--bg-nav);
+}
+
+/*------------- Media queries -------------*/
+@media (max-width: 1024px) {
+  #navigation {
+    border: none;
+    position: fixed;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid;
+    border-bottom-color: black;
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    z-index: 9999999999;
+    top: 0;
+    width: 100%;
+    padding: 0 5%;
+    height: 80px;
+  }
+
+  #navigation .navigation-item-wrapper {
+    border-top: 2px solid;
+    border-top-color: black;
+    border-top-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 100%;
+    width: 500px;
+    background: var(--bg-main);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    font-size: 0.8em;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    height: 100vh;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 0.7s linear 0s;
+    will-change: transform;
+  }
+
+  #navigation .navigation-item-wrapper.open {
+    transform: translateX(0%);
+  }
+
+  #navigation .navigation-item-wrapper .navigation-item {
+    width: 100%;
+    display: block;
+    padding: 10px 20px 10px 0;
+    color: black;
+    border-bottom: 1px solid;
+    border-bottom-color: black;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    font-weight: normal;
+    font-size: 1.25em;
+  }
+
+  #navigation .ant-collapse-content-box .navigation-item:last-of-type {
+    border-bottom: none;
+  }
+
+  #navigation .navigation-item-wrapper .navigation-item:hover {
+    box-shadow: 3px 0 0 0 var(--bg-yellow) inset;
+  }
+
+  #navigation .navigation-item-wrapper figure {
+    width: 35%;
+    display: block;
+    margin: 50px auto 0;
+  }
+
+  #navigation .ant-collapse-header {
+    padding: 0;
+  }
+
+  #navigation .ant-collapse {
+    background-color: inherit;
+  }
+
+  #navigation .ant-collapse-content>.ant-collapse-content-box {
+    padding: 0 16px;
+  }
+
+  .navigation-item .link {
+    font-size: 17px;
+  }
+
+  #logo-omnilife {
+    width: 100%;
+  }
+
+  #menu, #close-menu {
+    font-size: 2.5em;
+  }
+
+  #logo-seytu {
+    width: 125px;
+  }
+}
+
+@media (max-width: 768px) {
+  #navigation {
+    padding: 1.5% 5% 1.5% 3%;
+    height: 60px;
+  }
+
+  .navigation-item .link {
+    font-size: 16px;
+  }
+
+  #logo-seytu {
+    width: 100px;
+  }
+
+  #menu, #close-menu {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 500px) {
+  #navigation .navigation-item-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  #logo-seytu {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 280px) {
+  #navigation {
+    height: 20vw;
+  }
+
+  #navigation .navigation-item-wrapper .navigation-item,
+  #navigation .navigation-item-wrapper .navigation-item .link {
+    padding: 3%
+  }
+
+  .navigation-item .link {
+    font-size: 6vw;
+  }
+
+  #menu, #close-menu {
+    font-size: 12vw;
+  }
+}

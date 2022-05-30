@@ -1,0 +1,72 @@
+// CLIENT ID
+export const SAVE_CLIENT = Symbol('SAVE_CLIENT')
+
+// FAVORITE SEYTU PRODUCTS
+export const ADD_FAVORITE_SEYTU_PRODUCT = Symbol('ADD_FAVORITE_SEYTU_PRODUCT')
+export const DELETE_FAVORITE_SEYTU_PRODUCT = Symbol('DELETE_FAVORITE_SEYTU_PRODUCT')
+
+// FAVORITE OMNILIFE PRODUCTS
+export const ADD_FAVORITE_OMNILIFE_PRODUCT = Symbol('ADD_FAVORITE_OMNILIFE_PRODUCT')
+export const DELETE_FAVORITE_OMNILIFE_PRODUCT = Symbol('DELETE_FAVORITE_OMNILIFE_PRODUCT')
+
+// SEYTU PRODUCTS
+export const ADD_SEYTU_ORDER = Symbol('ADD_SEYTU_ORDER')
+export const ADD_SEYTU_PRODUCTS = Symbol('ADD_SEYTU_PRODUCTS')
+export const DELETE_SEYTU_ORDER = Symbol('DELETE_SEYTU_ORDER')
+export const CHANGE_SEYTU_ORDER_STATUS = Symbol('CHANGE_SEYTU_ORDER_STATUS')
+export const CHANGE_SEYTU_ACTIVE_TAB = Symbol('CHANGE_SEYTU_ACTIVE_TAB')
+export const SET_SEYTU_ORDERS = Symbol('SET_SEYTU_ORDERS')
+export const SET_SEYTU_PRODUCTS = Symbol('SET_SEYTU_PRODUCTS')
+export const SET_SEYTU_CATEGORIES = Symbol('SET_SEYTU_CATEGORIES')
+export const SHOW_LOADING_SEYTU_PRODUCTS = Symbol('SHOW_LOADING_SEYTU_PRODUCTS')
+export const SHOW_LOADING_SEYTU_ORDERS = Symbol('SHOW_LOADING_SEYTU_ORDERS')
+export const SHOW_LOADING_SEYTU_CATEGORIES = Symbol('SHOW_LOADING_SEYTU_CATEGORIES')
+export const HIDE_LOADING_SEYTU_PRODUCTS = Symbol('HIDE_LOADING_SEYTU_PRODUCTS')
+export const HIDE_LOADING_SEYTU_ORDERS = Symbol('HIDE_LOADING_SEYTU_ORDERS')
+export const HIDE_LOADING_SEYTU_CATEGORIES = Symbol('HIDE_LOADING_SEYTU_CATEGORIES')
+
+// OMNILIFE PRODUCTS
+export const ADD_OMNILIFE_ORDER = Symbol('ADD_OMNILIFE_ORDER')
+export const ADD_OMNILIFE_PRODUCTS = Symbol('ADD_OMNILIFE_PRODUCTS')
+export const DELETE_OMNILIFE_ORDER = Symbol('DELETE_OMNILIFE_ORDER')
+export const CHANGE_OMNILIFE_ORDER_STATUS = Symbol('CHANGE_OMNILIFE_ORDER_STATUS')
+export const CHANGE_OMNILIFE_ACTIVE_TAB = Symbol('CHANGE_OMNILIFE_ACTIVE_TAB')
+export const SET_OMNILIFE_ORDERS = Symbol('SET_OMNILIFE_ORDERS')
+export const SET_OMNILIFE_PRODUCTS = Symbol('SET_OMNILIFE_PRODUCTS')
+export const SET_OMNILIFE_CATEGORIES = Symbol('SET_OMNILIFE_CATEGORIES')
+export const SHOW_LOADING_OMNILIFE_PRODUCTS = Symbol('SHOW_LOADING_OMNILIFE_PRODUCTS')
+export const SHOW_LOADING_OMNILIFE_ORDERS = Symbol('SHOW_LOADING_OMNILIFE_ORDERS')
+export const SHOW_LOADING_OMNILIFE_CATEGORIES = Symbol('SHOW_LOADING_OMNILIFE_CATEGORIES')
+export const HIDE_LOADING_OMNILIFE_PRODUCTS = Symbol('HIDE_LOADING_OMNILIFE_PRODUCTS')
+export const HIDE_LOADING_OMNILIFE_ORDERS = Symbol('HIDE_LOADING_OMNILIFE_ORDERS')
+export const HIDE_LOADING_OMNILIFE_CATEGORIES = Symbol('HIDE_LOADING_OMNILIFE_CATEGORIES')
+
+// SORT SEYTU PRODUCTS BY
+export const SORT_SEYTU_PRODUCTS_BY_OLDEST = 'sort-seytu-products-by-oldest'
+export const SORT_SEYTU_PRODUCTS_BY_NEWEST = 'sort-seytu-products-by-newest'
+export const SORT_SEYTU_PRODUCTS_BY_ASC_NAME = 'sort-seytu-products-by-asc-name'
+export const SORT_SEYTU_PRODUCTS_BY_DESC_NAME = 'sort-seytu-products-by-desc-name'
+export const SORT_SEYTU_PRODUCTS_BY_HIGHEST_STOCK = 'sort-seytu-products-by-highest-stock'
+export const SORT_SEYTU_PRODUCTS_BY_MINOR_STOCK = 'sort-seytu-products-by-minor-stock'
+export const SORT_SEYTU_PRODUCTS_BY_MOST_POPULAR = 'sort-seytu-products-by-most-popular'
+export const SORT_SEYTU_PRODUCTS_BY_LEAST_POPULAR = 'sort-seytu-products-by-least-popular'
+export const SORT_SEYTU_PRODUCTS_BY_MOST_CHEAPEST = 'sort-seytu-products-by-most-cheapest'
+export const SORT_SEYTU_PRODUCTS_BY_MOST_EXPENSIVE = 'sort-seytu-products-by-most-expensive'
+
+// SORT OMNILIFE PRODUCTS BY
+export const SORT_OMNILIFE_PRODUCTS_BY_OLDEST = 'sort-omnilife-products-by-oldest'
+export const SORT_OMNILIFE_PRODUCTS_BY_NEWEST = 'sort-omnilife-products-by-newest'
+export const SORT_OMNILIFE_PRODUCTS_BY_ASC_NAME = 'sort-omnilife-products-by-asc-name'
+export const SORT_OMNILIFE_PRODUCTS_BY_DESC_NAME = 'sort-omnilife-products-by-desc-name'
+export const SORT_OMNILIFE_PRODUCTS_BY_HIGHEST_STOCK = 'sort-omnilife-products-by-highest-stock'
+export const SORT_OMNILIFE_PRODUCTS_BY_MINOR_STOCK = 'sort-omnilife-products-by-minor-stock'
+export const SORT_OMNILIFE_PRODUCTS_BY_MOST_POPULAR = 'sort-omnilife-products-by-most-popular'
+export const SORT_OMNILIFE_PRODUCTS_BY_LEAST_POPULAR = 'sort-omnilife-products-by-least-popular'
+export const SORT_OMNILIFE_PRODUCTS_BY_MOST_CHEAPEST = 'sort-omnilife-products-by-most-cheapest'
+export const SORT_OMNILIFE_PRODUCTS_BY_MOST_EXPENSIVE = 'sort-OMNILIFE-products-by-most-expensive'
+
+// SAVE FILTERS IN SEYTU PRODUCTS
+export const SAVE_SEYTU_EXTRA_FILTERS = Symbol('SAVE_SEYTU_EXTRA_FILTERS')
+
+// SAVE FILTERS IN OMNILIFE PRODUCTS
+export const SAVE_OMNILIFE_EXTRA_FILTERS = Symbol('SAVE_OMNILIFE_EXTRA_FILTERS')

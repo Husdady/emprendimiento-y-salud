@@ -1,0 +1,157 @@
+.about-products {
+  padding-bottom: 3.5%;
+  background-color: #E4E4E4;
+}
+
+.about-products[company="omnilife"] > .wrapper .see-all-products:hover {
+  background-color: #A2008E !important;
+}
+
+.about-products[company="seytu"] > .wrapper .see-all-products:hover {
+  background-color: #C00040 !important;
+}
+
+.about-products > .wrapper {
+  width: 75%;
+}
+
+.about-products .wrapper .title {
+  font-size: 4em;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+
+.about-products > .wrapper figure {
+  width: 70%;
+}
+
+.about-products > .wrapper .question {
+  margin: 25px 0;
+  font-size: 2.6em;
+}
+
+.about-products > .wrapper .response {
+  font-size: 1.45em;
+  white-space: pre-wrap;
+}
+
+.about-products > .wrapper .see-all-products {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  padding: 10px 80px;
+  color: var(--bg-white);
+  font-size: 1.3em;
+  font-family: 'Electrolize', sans-serif;
+}
+
+.about-products .products {
+  width: 80%;
+}
+
+/*------------- Media queries -------------*/
+@media (max-width: 1280px) {
+  .about-products .products {
+    width: 90%;
+  }
+
+  .about-products .wrapper .title {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 1080px) {
+  .about-products .products {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-products > .wrapper {
+    width: 85%;
+  }
+
+  .about-products .wrapper .response {
+    font-size: 1.35em;
+  }
+
+  .about-products .wrapper .see-all-products {
+    font-size: 1.25em;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 875px) {
+  .about-products {
+    padding: 0 0 50px;  
+  }
+
+  .about-products > .wrapper figure {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-products[category="omnilife"] {
+    padding-top: 20% !important;
+  }
+
+  .about-products[category="seytu"] {
+    padding-top: 10% !important;
+  }
+
+  .about-products > .wrapper {
+    width: 90%;
+  }
+
+  .about-products > .wrapper .response {
+    font-size: 1.25em;
+  }
+
+  .about-products > .wrapper .see-all-products {
+    padding: 12px 0;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-products .products {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .about-products .products .product {
+    width: 70%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.15);
+  }
+
+  .about-products .products .product:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .about-products .products .product {
+    width: 80%;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-products {
+    font-size: 4.25vw;
+  }
+  
+  .about-products > .wrapper .see-all-products {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 280px) {
+  .about-products .products .product {
+    width: 90%;
+  }
+}

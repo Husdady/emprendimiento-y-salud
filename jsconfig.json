@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@root/*": ["*"],
+      "@api/*": ["src/api/*"],
+      "@api/contact/*": ["src/api/contact/*"],
+      "@api/products": ["src/api/products/_exports"],
+      "@api/testimonials": ["src/api/testimonials/_exports"],
+      "@public/*": ["public/*"],
+      "@assets/*": ["public/assets/*"],
+      "@styles/*": ["src/styles/*"],
+      "@redux/*": ["src/redux/*"],
+      "@utils/*": ["src/utils/*"],
+      "@layouts/*": ["src/components/layouts/*"],
+      "@common": ["src/components/common/_exports"],
+    	"@headers": ["src/components/headers/_exports"],
+    }
+  }
+}

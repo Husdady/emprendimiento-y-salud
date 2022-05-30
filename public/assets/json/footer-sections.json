@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Afiliación",
+    "clientLink": "https://portal.omnilife.com/registro-cliente?distributor_code=510967424SMY&country_code=PER&lang=es",
+    "businessmanLink": "https://portal.omnilife.com/registro?distributor_code=510967424SMY&country_code=PER&lang=es"
+  },
+  {
+    "title": "Enlaces Rápidos",
+    "items": [
+      {
+        "icon": "home",
+        "name": "Inicio",
+        "path": "/"
+      },
+      {
+        "icon": "apple-alt",
+        "name": "Productos Omnilife",
+        "path": "/productos-omnilife"
+      },
+      {
+        "icon": "shopping-bag",
+        "name": "Productos Seytú",
+        "path": "/productos-seytu"
+      },
+      {
+        "icon": "users",
+        "name": "Programa de afiliados",
+        "path": "/programa-de-afiliados"
+      },
+      {
+        "icon": "user-injured",
+        "name": "Testimonios Omnilife",
+        "path": "/testimonios"
+      }
+    ]
+  },
+  {
+    "title": "Redes Sociales",
+    "items": [
+      {
+        "icon": ["fab", "facebook-square"],
+        "name": "Nutrición Orgánica",
+        "isExternalUrl": true,
+        "path": {
+          "pathname": "https://www.facebook.com/saludyenergianatural/",
+          "target": "_blank"
+        }
+      },
+      {
+        "icon": ["fab", "facebook-square"],
+        "name": "Cosmética Internacional YMS",
+        "isExternalUrl": true,
+        "path": {
+          "pathname": "https://www.facebook.com/NutricosmeticaA1/",
+          "target": "_blank"
+        }
+      },
+      {
+        "icon": ["fab", "whatsapp"],
+        "name": "51 951 871 023",
+        "isExternalUrl": true,
+        "path": {
+          "pathname": "https://wa.link/jdbcpo",
+          "target": "_blank"
+        }
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "className": "disable-links",
+    "title": "Email",
+    "items": [
+      {
+        "icon": "envelope",
+        "name": "nutricion.organica06@gmail.com"
+      },
+      {
+        "icon": "envelope",
+        "name": "seytu.cosmetica06@gmail.com"
+      },
+      {
+        "icon": "envelope",
+        "name": "yessikamill@gmail.com"
+      }
+    ]
+  }
+]

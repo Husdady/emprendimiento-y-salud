@@ -1,0 +1,30 @@
+{
+  "containerStyle": {
+    "paddingTop": "8%"
+  },
+  "title": "Productos Omnilife: protege tu salud",
+  "img": {
+    "path": "home/sections/acerca-de-los-productos-omnilife.webp"
+  },
+  "questions": [
+    {
+      "name": "¿Qué son los productos Omnilife?",
+      "response": "Los productos Omnilife son suplementos alimenticios elaborados con la tecnología más avanzada (Micelización). Además aportan a nuestro organismo los nutrientes necesarios para que este funcione correctamente, fortalezca las defensas, absorbiendo solamente lo que necesita y nos ayuda a prevenir distintas enfermedades. No contienen químicos y son 100% naturales."
+    },
+    {
+      "name": "¿Qué beneficios tienen los productos?",
+      "response": "Los productos Omnilife tienen diversos beneficios. Como por ejemplo, existen productos que son solamente para el fortalecimiento de nuestros huesos como pueden ser el Power Maker, Omniost y Vkids. Debes saber que los productos de la empresa están hechos naturalmente y no poseen químicos. Algunos productos están endulzados con la fruta del monje que es una especie de planta herbácea que se usa como endulzante natural.\n\nLos productos no hacen daño al organismo, más bien nutre las células y nos protege contra todo tipo de males. No tengas miedo si tomas el Power Maker y te empiezan a doler los huesos, es porque está haciendo efecto en tu organismo o si tomas Fiber'n Plus y te duele el estómago, es porque te está limpiando profundamente. Recuerda darle tiempo a tu salud, protégela con nuestros productos."
+    },
+    {
+      "name": "¿De qué están hechos los productos?",
+      "response": "Los ingredientes varian dependiendo de cada producto, todos están compuestos por vitaminas y proteínas esenciales para el organismo. Por ejemplo, el Omniplus, contiene un alto contenido de zinc, selenio, cobre y magnesio, elementos químicos que nos ayudan a fortalecer el sistema inmunológico. La mayoría de los productos son micelizados, es decir, siguen un proceso físico que facilita y potencia la absorción de los nutrientes que ingerimos, esto hace que los productos hagan efecto en poco tiempo."
+    }
+  ],
+  "button": {
+    "link": "/productos-omnilife",
+    "title": "Ver todos los productos Omnilife",
+    "style": {
+      "backgroundColor": "var(--bg-darkpurple)"
+    }
+  }
+}

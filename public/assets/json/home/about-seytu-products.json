@@ -1,0 +1,28 @@
+{
+  "containerStyle": { "paddingTop": 50 },
+  "title": "Productos Seytú: belleza y cosmética",
+  "img": {
+    "path": "home/sections/acerca-de-los-productos-seytu.webp"
+  },
+  "questions": [
+    {
+      "name": "¿Qué son los productos Seytú?",
+      "response": "Los productos Seytú son un conjunto de bienes producidos por la compañía Seytú que pertenece a Omnilife, estos productos han sido creados principalmente para mejorar la apariencia de quienes los usan. Son reconocidos mundialmente por sus maquillajes a prueba de agua, aunque debemos saber que esto no es novedad, ya que antes de la creación de estos, ya existían estos tipos de maquillaje, sólo que los maquillajes Seytú son hipoalergénicos y de larga duración.\n\nAlgunos productos Seytú son usados como tratamiento para distintos problemas, como la caída del cabello, aparición de acné o manchas, aclaramiento de piel, etc. Sus resultados dejan altas expectativas, y son muy recomendados en varios países de Sudamérica."
+    },
+    {
+      "name": "¿Qué beneficios tienen los productos?",
+      "response": "Sus beneficios varian dependiento del producto. Por ejemplo, si tienes acné y deseas eliminarlo por completo, podemos ofrecerte la Espuma Limpiadora Facial y el Omniplus Gel Premium, en cambio si padeces de Alopecia, caída del cabello, tu mejor solución será la Mascarilla reparadora, el Acondicionador y el Shampoo para cabello débil.\n\nLa mayoría de los productos contienen aloe vera, planta que aporta varios beneficios para nuestra piel, entre ellos, alivia quemaduras, elimina células muertas, hidrata la piel, etc. Igualmente para nuestro cabello, entre ellos, fortalece el cuero cabelludo, suaviza y le da brillo, elimina la grasa capilar, etc."
+    },
+    {
+      "name": "¿De qué están hechos los productos?",
+      "response": "El contenido de los productos varia dependiendo del uso de este. Por ejemplo los productos para la piel contienen aceite de jojoba, aloe vera, vitamina E, etc. Los productos para el cabello contienen extracto de Omniplus, aloe vera, queratina hidrolizada, etc."
+    }
+  ],
+  "button": {
+    "link": "/productos-seytu",
+    "title": "Ver todos los productos Seytú",
+    "style": {
+      "backgroundColor": "var(--bg-darkred)"
+    }
+  }
+}

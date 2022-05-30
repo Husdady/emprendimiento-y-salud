@@ -1,0 +1,69 @@
+[
+  {
+    "id": "p0981ha8",
+    "icon": "home",
+    "path": "/",
+    "title": "Inicio"
+  },
+  {
+    "id": "k2907nah",
+    "icon": "shopping-cart",
+    "title": "Productos",
+    "submenu": [
+      {
+        "id": "pr129zna",
+        "icon": "apple-alt",
+        "path": "/productos-omnilife",
+        "title": "Productos Omnilife"
+      },
+      {
+        "id": "fn2901ox",
+        "icon": "shopping-bag",
+        "path": "/productos-seytu",
+        "title": "Productos Seytú"
+      }
+    ]
+  },
+  {
+    "id": "4yw1lmn3",
+    "icon": "users",
+    "path": "/programa-de-afiliados",
+    "title": "Programa de afiliados"
+  },
+  {
+    "id": "blog",
+    "icon": "th",
+    "title": "Blog",
+    "isExternalUrl": true,
+    "path": {
+      "pathname": "https://nutricionysaludpersonal.blogspot.com/",
+      "target": "_blank"
+    }
+  },
+  {
+    "id": "l8cx5q67",
+    "icon": "address-book",
+    "path": "/contacto",
+    "title": "Contacto"
+  },
+  {
+    "id": "iy10p5nm",
+    "icon": "info-circle",
+    "path": "/contacto",
+    "title": "Extra",
+    "submenu": [
+      {
+        "id": "u73jqd0z",
+        "icon": "book",
+        "path": "/historia-de-omnilife",
+        "title": "Historia de Omnilife"
+      },
+      {
+        "id": "s192hnas",
+        "icon": "user-injured",
+        "path": "/testimonios",
+        "title": "Testimonios Omnilife"
+      }
+    ]
+  }
+]

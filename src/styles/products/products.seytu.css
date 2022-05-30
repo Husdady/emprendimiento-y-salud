@@ -1,0 +1,18 @@
+#products-container[company="seytu"]>.wrapper .filters #categories-container .categories::-webkit-scrollbar-thumb,
+#products-container[company="seytu"]>.wrapper .filters #categories-container .categories .checkbox.active .title:before,
+#products-container[company="seytu"]>.wrapper .filters #settings .checkbox.active .title:before,
+#products-container[company="seytu"]>.wrapper .tab-container .ant-tabs-ink-bar,
+.container-product[company="seytu"] .product-images > .contact-distributor:hover{
+  background-color: var(--bg-darkred);
+}
+
+ #products-container[company="seytu"]>.wrapper .tab-container .ant-tabs-tab,
+ #products-container[company="seytu"]>.wrapper .tab-container .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--bg-darkred);
+}
+
+#products-container[company="seytu"]>.wrapper .filters #categories-container .categories .checkbox.active .title:before,
+#products-container[company="seytu"]>.wrapper .filters #settings .checkbox.active .title:before,
+.container-product[company="seytu"] .product-images > .contact-distributor:hover {
+	color: var(--bg-white);
+}

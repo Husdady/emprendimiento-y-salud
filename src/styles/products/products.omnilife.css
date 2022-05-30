@@ -1,0 +1,19 @@
+#products-container[company="omnilife"]>.wrapper .filters #categories-container .categories::-webkit-scrollbar-thumb,
+#products-container[company="omnilife"]>.wrapper .filters #categories-container .categories .checkbox.active .title:before,
+#products-container[company="omnilife"]>.wrapper .filters #settings .checkbox.active .title:before,
+#products-container[company="omnilife"]>.wrapper .tab-container .ant-tabs-ink-bar,
+.container-product[company="omnilife"] .product-images > .contact-distributor:hover {
+  background-color: var(--bg-darkpurple);
+}
+
+ #products-container[company="omnilife"]>.wrapper .tab-container .ant-tabs-tab,
+ #products-container[company="omnilife"]>.wrapper .tab-container .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--bg-darkpurple);
+}
+
+#products-container[company="omnilife"]>.wrapper .filters #categories-container .categories .checkbox.active .title:before,
+#products-container[company="omnilife"]>.wrapper .filters #settings .checkbox.active .title:before,
+.container-product[company="omnilife"] .product-images > .contact-distributor:hover {
+  color: var(--bg-yellow);
+}
+

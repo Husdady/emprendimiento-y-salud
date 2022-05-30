@@ -1,0 +1,5 @@
+# Basic
+/node_modules
+.env*
+.next*
+package-lock.json

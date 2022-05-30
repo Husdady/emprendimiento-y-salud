@@ -1,0 +1,168 @@
+[
+  {
+    "shortcut": "shortcut-h21ga",
+    "containerStyle": {
+      "backgroundImage": "linear-gradient(to top, hsla(99, 100%, 0%, 0.824), hsla(99, 100%, 0%, 0.828)), url(assets/img/home/sections/negocio-omnilife.webp)"
+    },
+    "title": {
+      "name": "Omnilife, Gente que cuida a la gente.",
+      "style": {
+        "color": "var(--bg-orange)"
+      }
+    },
+    "description": {
+      "name": "OMNILIFE ha contribuido a que miles y miles de familias en países de América y Europa mejoren sensiblemente su calidad de vida, compartiendo con otras personas el bienestar y el crecimiento, para convertirse así en \"Gente que cuida a la gente\"."
+    },
+    "button": {
+      "shortcut": "shortcut-3ip01",
+      "style": {
+        "color": "#000",
+        "backgroundColor": "var(--bg-orange)"
+      }
+    },
+    "img": {
+      "width": 526,
+      "height": 225,
+      "path": "home/ilustrations/ilustration01.webp",
+      "alt": "omnilife-gente-que-cuida-a-la-gente"
+    }
+  },
+  {
+    "containerStyle": {
+      "backgroundColor": "#F1D6FF",
+      "color": "#000000"
+    },
+    "wrapperStyle": {
+      "borderTop": "1px solid black",
+      "borderLeft": "1px solid black",
+      "paddingTop": "40px"
+    },
+    "title": {
+      "name": "Productos 100% nutricionales",
+      "style": {
+        "color": "var(--bg-darkpurple)"
+      },
+      "containerStyle": {
+        "order": 1
+      }
+    },
+    "description": {
+      "name": "Los productos Omnilife son suplementos nutricionales micelizados que aportan a nuestro organismo los nutrientes necesarios para su buen funcionamiento. Existen más de 50 productos con diferentes beneficios para la salud."
+    },
+    "button": {
+      "shortcut": "shortcut-1DA21",
+      "style": {
+        "fontWeight": "normal",
+        "fontFamily": "Lato, sans-serif",
+        "color": "var(--bg-white)",
+        "backgroundColor": "var(--bg-darkpurple)"
+      }
+    },
+    "img": {
+      "path": "home/ilustrations/ilustration02.webp",
+      "alt": "omnilife-gente-que-cuida-a-la-gente",
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "containerStyle": {
+      "backgroundImage": "linear-gradient(to top, hsla(99, 100%, 0%, 0.824), hsla(99, 100%, 0%, 0.828)), url(assets/img/home/sections/red-de-empresarios.webp)"
+    },
+    "wrapperStyle": {
+      "paddingTop": "40px"
+    },
+    "title": {
+      "name": "Crea tu red de empresarios",
+      "style": {
+        "color": "#009197"
+      }
+    },
+    "description": {
+      "name": "Al convertirte en un empresario OMNILIFE, debes emprender en el negocio construyendo tu propia red de afiliados. Afilia a más personas emprendedoras como tú y ganarás una comisión por los productos que compren, además de participar por bonos y viajes."
+    },
+    "button": {
+      "shortcut": "shortcut-F9K88",
+      "style": {
+        "fontWeight": "normal",
+        "fontFamily": "Lato, sans-serif",
+        "color": "var(--bg-white)",
+        "backgroundColor": "#009197"
+      }
+    },
+    "img": {
+      "path": "home/ilustrations/ilustration03.webp",
+      "alt": "omnilife-gente-que-cuida-a-la-gente",
+      "width": 800,
+      "height": 650
+    }
+  },
+  {
+    "containerStyle": {
+      "color": "#000",
+      "backgroundColor": "#FFD6D6"
+    },
+    "wrapperStyle": {
+      "borderTop": "1px solid black",
+      "borderLeft": "1px solid black",
+      "paddingTop": "40px"
+    },
+    "title": {
+      "name": "Línea de belleza SEYTÚ",
+      "style": {
+        "color": "var(--bg-darkred)"
+      },
+      "containerStyle": {
+        "order": 1
+      }
+    },
+    "description": {
+      "name": "SEYTU es una compañía que nos da la oportunidad de ser empresarios independientes generando de un 20% a 40% de ganancias sobre el producto. El maquillaje es \"hipoalergénico\", botánico y 100% natural no se prueba en animales, también es libre de gluten y aprueba de agua."
+    },
+    "button": {
+      "shortcut": "shortcut-D12H3",
+      "style": {
+        "fontWeight": "normal",
+        "fontFamily": "Lato, sans-serif",
+        "color": "var(--bg-white)",
+        "backgroundColor": "var(--bg-darkred)"
+      }
+    },
+    "img": {
+      "width": 910,
+      "height": 750,
+      "alt": "seytu-ilustration",
+      "path": "home/ilustrations/ilustration04.webp"
+    }
+  },
+  {
+    "containerStyle": {
+      "backgroundImage": "linear-gradient(to top, hsla(99, 100%, 0%, 0.824), hsla(99, 100%, 0%, 0.828)), url(assets/img/home/sections/acerca-de-omnilife.webp)"
+    },
+    "wrapperStyle": {
+      "paddingTop": "40px"
+    },
+    "title": {
+      "name": "Acerca de Omnilife",
+      "style": {
+        "color": "var(--bg-darkyellow)"
+      }
+    },
+    "description": {
+      "name": "OMNILIFE es una empresa mexicana, la más grande del mundo en la Elaboración de Suplementos Alimenticios de calidad. Aplica en sus procesos Tecnología de punta concentrando vitaminas, minerales y aminoácidos en un balance perfecto."
+    },
+    "button": {
+      "link": "/historia-de-omnilife",
+      "style": {
+        "color": "#000",
+        "backgroundColor": "var(--bg-darkyellow)"
+      }
+    },
+    "img": {
+      "width": 2092,
+      "height": 1900,
+      "path": "home/ilustrations/ilustration05.webp",
+      "alt": "omnilife-gente-que-cuida-a-la-gente"
+    }
+  }
+]

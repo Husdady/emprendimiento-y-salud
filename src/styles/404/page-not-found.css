@@ -1,0 +1,150 @@
+#page-not-found {
+  background-color: var(--bg-main);
+  display: table;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3%;
+  overflow: scroll;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+
+#page-not-found #magnifying-glass {
+  width: 20%;
+  min-width: 180px;
+  position: absolute;
+  animation: magnifying-glass 8s infinite;
+}
+
+@keyframes magnifying-glass {
+  0% {
+    left: 40%;
+    top: 45%;
+  }
+  25% {
+    left: 65%;
+    top: 25%;
+  }
+  50% {
+    left: 30%;
+    top: 15%;
+  }
+  75% {
+    left: 20%;
+    top: 35%;
+  }
+  100% {
+    left: 40%;
+    top: 45%;
+  }
+}
+
+#page-not-found>.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#page-not-found>.wrapper figure {
+  width: 18%;
+  margin: auto;
+  min-width: 215px;
+}
+
+#page-not-found>.wrapper figure img {
+  width: 100%;
+}
+
+#page-not-found>.wrapper .type-error {
+  font-size: 8em;
+  margin: 20px 0 0;
+  line-height: .65;
+}
+
+#page-not-found>.wrapper .title {
+  font-size: 4em;
+  margin: 0;
+}
+
+#page-not-found>.wrapper .message {
+  font-size: 1.5em;
+  display: block;
+  width: 55%;
+  margin: 0 auto 20px;
+}
+
+#page-not-found>.wrapper .go-to-home {
+  display: table;
+  margin: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #f37353;
+  color: var(--bg-white);
+  padding: 10px 40px;
+  font-size: 1.05em;
+  font-family: 'Electrolize', sans-serif;
+}
+
+#page-not-found>.wrapper .go-to-home:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  #root.default {
+    margin: 0;
+  }
+  #page-not-found>.wrapper .go-to-home {
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 768px) {
+  #page-not-found>.wrapper figure {
+    width: 30%;
+  }
+}
+
+@media (max-width: 700px) {
+  #page-not-found {
+    padding: 0 1.5% 7%;
+  }
+  #page-not-found>.wrapper .title {
+    line-height: .85;
+    margin: 25px 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #page-not-found>.wrapper .type-error {
+    font-size: 7em;
+  }
+  #page-not-found>.wrapper .title {
+    font-size: 3.5em;
+  }
+  #page-not-found>.wrapper .message {
+    font-size: 1.25em;
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  #page-not-found>.wrapper {
+    font-size: 3.5vw;
+  }
+  #page-not-found>.wrapper figure {
+    width: 45vw;
+    min-width: initial;
+  }
+  #page-not-found>.wrapper .go-to-home {
+    padding: 3.5% 12%;
+  }
+  #page-not-found #magnifying-glass {
+    width: 35vw;
+    min-width: initial;
+  }
+}

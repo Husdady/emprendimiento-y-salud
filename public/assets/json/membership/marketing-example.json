@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Presentadora de Ignacio",
+    "presenter": "Erica",
+    "subItems": [
+      {
+        "title": "Presentador de Mónica y Juan",
+        "presenter": "Ignacio",
+        "subItems": [
+          {
+            "title": "Afiliado de primer nivel de Ignacio",
+            "presenter": "Mónica",
+            "subItems": [
+              {
+                "title": "Afiliado de segundo nivel de Ignacio",
+                "presenter": "Otro afiliado de Mónica"
+              },
+              {
+                "title": "Afiliado de segundo nivel de Ignacio",
+                "presenter": "Otro afiliado de Mónica",
+                "subItems": [
+                  {
+                    "title": "Afiliado de primer nivel del afiliado de Mónica",
+                    "presenter": "Otro afiliado del afiliado de Mónica"
+                  },
+                  {
+                    "title": "Afiliado de primer nivel del afiliado de Mónica",
+                    "presenter": "Otro afiliado del afiliado de Mónica"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Afiliado de primer nivel de Ignacio",
+            "presenter": "Juan",
+            "subItems": [
+              {
+                "title": "Afiliado de segundo nivel de Ignacio",
+                "presenter": "Otro afiliado de Juan"
+              },
+              {
+                "title": "Afiliado de segundo nivel de Ignacio",
+                "presenter": "Otro afiliado de Juan",
+                "subItems": [
+                  {
+                    "title": "Afiliado de primer nivel del afiliado de Juan",
+                    "presenter": "Otro afiliado del afiliado de Juan"
+                  }
+                ]
+              },
+              {
+                "title": "Afiliado de segundo nivel de Ignacio",
+                "presenter": "Otro afiliado de Juan"
+              }
+            ]
+          },
+          {
+            "presenter": "Otro afiliado de Ignacio"
+          },
+          {
+            "presenter": "Otro afiliado de Ignacio"
+          }
+        ]
+      }
+    ]
+  }
+]

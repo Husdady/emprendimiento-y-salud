@@ -1,0 +1,336 @@
+/*------------- Contenedor de productos -------------*/
+#products-container {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  background-color: var(--bg-white);
+}
+
+#products-container>.wrapper {
+  width: 95%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: var(--bg-main);
+}
+
+/*------------- Filtros -------------*/
+#products-container>.wrapper .filters {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--bg-gray-100);
+}
+
+/*------------- Filtrar por categoría -------------*/
+#products-container>.wrapper .filters #categories-container {
+  width: 33.33%;
+}
+
+#products-container>.wrapper .filters #categories-container>.title {
+  font-size: 2.5em;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#products-container>.wrapper .filters #categories-container>.text {
+  margin-top: 10px;
+  font-size: 1.15em;
+  margin-bottom: 25px;
+}
+
+#products-container>.wrapper .filters #categories-container .categories {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+#products-container>.wrapper .filters #categories-container .categories::-webkit-scrollbar {
+  width: 4px;
+}
+
+#products-container>.wrapper .filters #categories-container .categories::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+#products-container>.wrapper .filters #categories-container .categories .category {
+  font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--bg-gray-200);
+  border-bottom: 1px solid var(--bg-gray-100);
+}
+
+#products-container>.wrapper .filters #categories-container .categories .ant-skeleton.ant-skeleton-element.ant-skeleton-active {
+  width: 97%;
+  margin: 3px 0;
+}
+
+#products-container>.wrapper .filters #categories-container .categories .ant-skeleton.ant-skeleton-active .ant-skeleton-button {
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+
+#products-container>.wrapper .filters #categories-container .search-by-category {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.1em;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: "Electrolize", sans-serif;
+}
+
+/*------------- Más filtros -------------*/
+#products-container>.wrapper .filters .more-filters {
+  width: 62.5%;
+}
+
+#products-container>.wrapper .filters .more-filters .help {
+  top: 2px;
+  right: 10px;
+  position: absolute;
+}
+
+#products-container>.wrapper .filters .more-filters>.title {
+  font-size: 2em;
+}
+
+#products-container>.wrapper .filters .more-filters>.subtitle {
+  font-size: 1.6em;
+}
+
+#products-container>.wrapper .filters .more-filters .title, #products-container>.wrapper .filters .more-filters .subtitle {
+  font-family: "Rubik", sans-serif;
+}
+
+/*------------- Buscador -------------*/
+#products-container>.wrapper .filters .more-filters #search {
+  margin-bottom: 30px;
+}
+
+#products-container>.wrapper .filters .more-filters #search .search-entry {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1.17em;
+}
+
+#products-container>.wrapper .filters .more-filters #search .search-button {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  background-color: var(--bg-gray-100);
+}
+
+#products-container>.wrapper .filters .more-filters #search .search-entry:focus::placeholder {
+  color: transparent;
+}
+
+/*------------- Ordenar productos por -------------*/
+#products-container>.wrapper .filters .more-filters #order-by {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#products-container>.wrapper .filters .more-filters #order-by .options {
+  width: 95%;
+}
+
+/*------------- Aplicar filtros -------------*/
+#products-container>.wrapper .filters .more-filters .wrap {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+#products-container>.wrapper .filters .more-filters .wrap-buttons {
+  margin-bottom: 15px;
+}
+
+#products-container>.wrapper .filters .more-filters .save-filters,
+#products-container>.wrapper .filters .more-filters .apply-filters {
+  padding: 8px 20px;
+}
+
+#products-container>.wrapper .filters .more-filters .save-filters:disabled,
+#products-container>.wrapper .filters .more-filters .apply-filters:disabled {
+  opacity: .3;
+}
+
+#products-container>.wrapper .filters .more-filters .wrap-filters {
+  gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*------------- Aplicar filtros por precio -------------*/
+#products-container>.wrapper .filters .more-filters #by-price .quantity {
+  padding: 5px 10px;
+}
+
+#products-container>.wrapper .filters .more-filters #by-price .quantity::placeholder {
+  font-weight: normal;
+}
+
+/*------------- Aplicar filtros por stock -------------*/
+#products-container>.wrapper .filters .more-filters #by-stock .stock {
+  width: 50%;
+  font-size: 1.5em;
+  background-color: #ffffff;
+}
+
+#products-container>.wrapper .filters .more-filters #by-stock .increase,
+#products-container>.wrapper .filters .more-filters #by-stock .decrease {
+  padding: 5px 15px;
+  font-size: .65rem;
+  background-color: var(--bg-gray-100);
+}
+
+/*------------- Aplicar filtros por fecha -------------*/
+#products-container>.wrapper .filters .more-filters #by-date {
+  margin-top: 12px;
+}
+
+/*------------- Pestañas -------------*/
+#products-container>.wrapper .tab-container .ant-tabs-nav {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+}
+
+#products-container>.wrapper .tab-container .ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: bold;
+  text-shadow: none;
+}
+
+/*------------- Productos -------------*/
+#products-container>.wrapper .products {
+  gap: 15px;
+  width: 96%;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/*------------- Producto -------------*/
+#products-container>.wrapper .products .product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--bg-white);
+  box-shadow: 0 2px 6px 1px rgba(0, 0, 0, .15);
+}
+
+#products-container>.wrapper .products .product .star {
+  top: 10px;
+  right: 10px;
+  padding: 6px;
+  color: var(--bg-gray-200);
+}
+
+#products-container>.wrapper .products .product .star.active,
+#products-container>.wrapper .products .product .star:hover {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+#products-container>.wrapper .products .product .star.active {
+  color: var(--bg-darkyellow)
+}
+
+#products-container>.wrapper .products .product .title {
+  width: 60%;
+  font-size: 1.25em;
+  line-height: 1.15;
+  font-family: "Rubik", sans-serif;
+}
+
+#products-container>.wrapper .products .product figure {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#products-container>.wrapper .products .product figure:hover{
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+#products-container>.wrapper .products .product .description {
+  width: 92%;
+  font-size: 1.1em;
+}
+
+#products-container>.wrapper .products .product .price {
+  margin-top: 15px;
+  font-size: 1.25em;
+  font-family: "Rubik";
+}
+
+#products-container>.wrapper .products .product .add-to-orders {
+  width: 90%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+/*------------- Tabla de pedidos -------------*/
+#products-container>.wrapper .my-orders {
+  width: 94%;
+}
+
+#products-container>.wrapper .my-orders .ant-table-content::-webkit-scrollbar {
+  display: none;
+}
+
+#products-container>.wrapper .my-orders .ant-table-content {
+  overflow: auto hidden; 
+}
+
+#products-container>.wrapper .my-orders .ant-table-content .status .ant-tag {
+  margin-right: 0;
+}
+
+#products-container>.wrapper .my-orders .ant-table-thead > tr > th {
+  font-weight: bold;
+  text-align: center;
+}
+
+/*------------- Detalles del pedido -------------*/
+.ant-modal.order-details figure {
+  width: 35%;
+  min-width: 150px;
+}
+
+.ant-modal.order-details .information {
+  width: 65%;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-height: 175px;
+  overflow-y: auto;
+}
+
+.ant-modal.order-details .information::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ant-modal.order-details .information::-webkit-scrollbar-track {
+  background-color: var(--bg-white);
+}
+
+.ant-modal.order-details .information::-webkit-scrollbar-thumb {
+  background-color: var(--bg-gray-100);
+}
+
+.ant-modal.order-details .information .title,
+.ant-modal.order-details .information .value {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.ant-modal.order-details .information .increase,
+.ant-modal.order-details .information .decrease,
+.ant-modal.order-details .information .stock {
+  width: 20%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.ant-modal.order-details .information .stock {
+  width: 60%;
+  outline: 1px solid rgba(0, 0, 0, .06);
+}

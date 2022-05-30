@@ -1,0 +1,181 @@
+/*------------- Producto no encontrado -------------*/
+.container-product .product-not-found {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -56%);
+}
+
+.container-product .product-not-found > .title {
+	width: 70%;
+	font-size: 3em;
+	margin-top: -20px;
+	line-height: 1.15;
+	font-family: "Maven Pro", sans-serif;
+}
+
+.container-product .product-not-found > .go-to-products-sections {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/*------------- Producto -------------*/
+.container-product {
+	margin-top: 4%;
+	margin-bottom: 2em;
+	min-height: 500px;
+	border: 1px solid;
+	border-color: var(--bg-gray-100);
+	border-color: rgba(0, 0, 0, .1);
+}
+
+.container-aleatory-products > .title {
+	font-size: 2em;
+	line-height: 1.1;
+	text-decoration: underline;
+}
+
+.container-product,
+.container-aleatory-products {
+	width: 95%;
+}
+
+/*------------- Imágenes del producto -------------*/
+.container-product .product-images {
+	width: 35%;
+	/*padding: 1.5em;*/
+}
+
+.container-product .product-images .carousel .slide .product-image {
+	height: 300px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.container-product .product-images .carousel .slide .product-image > img {
+	display: none;
+}
+
+.container-product .product-images .carousel .control-dots .dot {
+	box-shadow: none;
+	background-color: var(--bg-gray-200);
+}
+
+.container-product .product-images > .contact-distributor {
+	width: 75%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.25em;
+	margin-top: 15px;
+	margin-bottom: 1em;
+	font-family: "Noto Sans", sans-serif;
+	color: var(--bg-white);
+	background-color: var(--bg-gray-100);
+}
+
+.container-product .product-images > .note,
+.container-product .product-information > .product-content {
+	font-size: 1.15em;
+	color: var(--bg-gray-200);
+	font-family: "Lato", sans-serif;
+}
+
+/*------------- Información del producto -------------*/
+.container-product .product-information {
+	width: 65%;
+	padding: 2em 3em;
+	border-left: 1px solid;
+  border-left-color: var(--bg-gray-100);
+  border-left-color: rgba(0, 0, 0, .1);
+}
+
+.container-product .product-information > .product-name {
+	font-size: 4em;
+	line-height: 1.1;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.container-product .product-information > .product-description {
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
+
+.container-product .product-information .list,
+.container-product .product-information > .product-description {
+	font-size: 1.25em;
+}
+
+.container-product .product-information > .title {
+	font-size: 2em;
+	margin-bottom: 7px;
+	text-decoration: underline;
+}
+
+/*------------- Skeleton de Productos aleatorios -------------*/
+.aleatory-products.skeleton > .react-multi-carousel-track {
+	overflow-y: auto;
+}
+
+.aleatory-products.skeleton > .react-multi-carousel-track::-webkit-scrollbar {
+	height: 7px;
+}
+
+.aleatory-products.skeleton > .react-multi-carousel-track .react-multi-carousel-item > .ant-skeleton {
+	width: 250px;
+	height: 400px;
+}
+
+/*------------- Productos aleatorios -------------*/
+.container-aleatory-products .aleatory-products > .react-multi-carousel-track {
+	padding-bottom: 1em;
+}
+
+.container-aleatory-products .aleatory-products > .react-multi-carousel-track .react-multi-carousel-item {
+	margin-right: 1.5em;
+}
+
+.aleatory-products .react-multi-carousel-item .product {
+	width: 100%;
+	height: 100% !important;
+}
+
+@media (max-width: 1024px) {
+	.container-product .product-images,
+	.container-product .product-information {
+		width: 100%;
+	}
+
+	.container-product .product-images {
+		border-bottom: 1px solid; 
+		border-bottom-color: var(--bg-gray-100);
+  	border-bottom-color: rgba(0, 0, 0, .1);
+	}
+
+	.container-product .product-information {
+		padding: 1.5em;
+		border-left: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.container-product .product-not-found > .title {
+		width: 90%;
+	}
+
+	.aleatory-products.skeleton > .react-multi-carousel-track::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.aleatory-products .react-multi-carousel-item {
+		margin-right: 0;
+	}
+
+	.aleatory-products.skeleton > .react-multi-carousel-track .react-multi-carousel-item > .ant-skeleton {
+		margin-right: 1em;
+	}
+
+	.container-aleatory-products .aleatory-products > .react-multi-carousel-track .react-multi-carousel-item {
+		margin-right: 0;
+	}
+}

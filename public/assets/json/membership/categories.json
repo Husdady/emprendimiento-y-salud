@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Bronce",
+    "alt": "bronze-star",
+    "stars": ["bronze"]
+  },
+  {
+    "title": "Plata",
+    "alt": "silver-star",
+    "stars": ["silver"]
+  },
+  {
+    "title": "Oro",
+    "alt": "gold-star",
+    "stars": ["gold"]
+  },
+  {
+    "title": "Diamante",
+    "alt": "diamond-star",
+    "stars": ["diamond"]
+  },
+  {
+    "title": "Doble Diamante",
+    "alt": "double-diamond-star",
+    "stars": ["diamond", "diamond"]
+  },
+  {
+    "title": "Triple Diamante",
+    "alt": "triple-diamond-star",
+    "stars": ["diamond", "diamond", "diamond"]
+  }
+]
