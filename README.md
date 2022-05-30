@@ -10,5 +10,17 @@ El proyecto fue puesto a producción hace 2 años, en el mes de Agosto. con el t
 - Productos Omnilife mostrados a los clientes para que estos puedan realizados pedidos
 - Testimonios Omnilife, un testimonio es un comentario que deja una persona que afirma los beneficios de los productos
 
+## Tecnologías usadas
+- NextJS
+- ReactJS
+- Webpack
+- Javascript
+- HTML
+- CSS
+- Antd Design
+- Bootstrap
+- Redux
+- Axios
+
 ### ¿Deseas apoyar en el proyecto?
 Si deseas ganar experiencia desarrollando en React/NextJS no dudes en contactarte, te lo agradecería un montón si me echas una mano a mantener este proyecto <3
