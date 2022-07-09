@@ -9,7 +9,7 @@ import { APP_NAME } from '@api/credentials'
 
 export default class AffiliateProgramHeader extends Component {
   render() {
-    const pageTitle = `Programa de afiliados | ${APP_NAME} `
+    const pageTitle = `Programa de afiliados | ${APP_NAME}`
 
     return (
       <Head>

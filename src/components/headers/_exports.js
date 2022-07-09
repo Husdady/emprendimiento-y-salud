@@ -7,5 +7,6 @@ import OmnilifeProductsHeader from './OmnilifeProducts.Header'
 import AffiliateProgramHeader from './AffiliateProgram.Header'
 import OmnilifeHistoryHeader from './OmnilifeHistory.Header'
 import TestimonialsHeader from './Testimonials.Header'
+import AppInMaintenanceHeader from './AppInMaintenance.Header'
 
-export { HomeHeader, FaviconHeader, ContactHeader, ProductHeader, LoadingProductHeader, SeytuProductsHeader, OmnilifeProductsHeader, AffiliateProgramHeader, OmnilifeHistoryHeader, TestimonialsHeader }
+export { HomeHeader, FaviconHeader, ContactHeader, ProductHeader, LoadingProductHeader, SeytuProductsHeader, OmnilifeProductsHeader, AffiliateProgramHeader, OmnilifeHistoryHeader, TestimonialsHeader, AppInMaintenanceHeader }

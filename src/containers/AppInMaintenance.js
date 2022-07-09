@@ -1,8 +1,12 @@
 // React
-import { Component } from 'react'
+import { Component, Fragment } from 'react'
+
+// Headers
+import { AppInMaintenanceHeader } from '@headers'
 
 // API
 import { APP_NAME } from '@api/credentials'
+
 
 const maintenance = require('@assets/img/404/maintenance.gif').default.src
 
@@ -34,19 +38,25 @@ export default class AppInMaintenance extends Component {
 
   render() {
     return (
-      <div className="d-flex jc-center flex-column h-100vh" style={containerStyle}>
-        <figure style={figureStyle} className="mx-auto mb-0">
-          <img
-            width="100%"
-            height="100%"
-            title="Sitio web en matenimiento"
-            alt="sitio-web-en-mantenimiento"
-            src={maintenance}
-          />
-        </figure>
+      <Fragment>
+        {/* Header */}
+        <AppInMaintenanceHeader />
 
-        <h2 className="fw-bold mx-auto text-center" style={titleStyle}>Actualmente <q>{APP_NAME}</q> está en mantenimiento, pronto volverá a estar disponible de nuevo...</h2>
-      </div>
+        {/* Sitio web en matenimiento */}
+        <div className="d-flex jc-center flex-column h-100vh" style={containerStyle}>
+          <figure style={figureStyle} className="mx-auto mb-0">
+            <img
+              width="100%"
+              height="100%"
+              title="Sitio web en matenimiento"
+              alt="sitio-web-en-mantenimiento"
+              src={maintenance}
+            />
+          </figure>
+
+          <h2 className="fw-bold mx-auto text-center" style={titleStyle}>Actualmente <q>{APP_NAME}</q> está en mantenimiento, pronto volverá a estar disponible de nuevo...</h2>
+        </div>
+      </Fragment>
     )
   }
 }
