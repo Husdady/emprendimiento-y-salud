@@ -1,9 +1,6 @@
 // React
 import { Component } from 'react'
 
-// Librarys
-import Image from 'next/image'
-
 // API
 import { APP_NAME } from '@api/credentials'
 
@@ -14,13 +11,12 @@ const containerStyle = {
 }
 
 const figureStyle = {
-  width: 400,
-  height: 400
+  width: 400
 }
 
 const titleStyle = {
   maxWidth: 538,
-  marginTop: -70,
+  marginTop: 20,
   lineHeight: "32px",
   fontSize: "1.75em",
   fontFamily: "Rubik",
@@ -38,19 +34,14 @@ export default class AppInMaintenance extends Component {
 
   render() {
     return (
-      <div className="d-flex jc-center flex-column" style={containerStyle}>
-        <figure style={figureStyle} className="mx-auto">
-          <Image
+      <div className="d-flex jc-center flex-column h-100vh" style={containerStyle}>
+        <figure style={figureStyle} className="mx-auto mb-0">
+          <img
             width="100%"
             height="100%"
-            loading="eager"
-            placeholder="blur"
-            objectFit="contain"
-            layout="responsive"
             title="Sitio web en matenimiento"
             alt="sitio-web-en-mantenimiento"
             src={maintenance}
-            blurDataURL={maintenance}
           />
         </figure>
 
