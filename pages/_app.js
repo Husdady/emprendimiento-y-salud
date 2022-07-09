@@ -120,7 +120,7 @@ function MyApp({ Component, pageProps }) {
       return <Loading />
     }
 
-    if (!eval(APP_IN_MAINTENANCE)) {
+    if (eval(APP_IN_MAINTENANCE)) {
       return <AppInMaintenance />
     }
 
