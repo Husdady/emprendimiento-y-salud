@@ -1,0 +1,157 @@
+.container-testimonials {
+  padding: 20px 0 70px;
+}
+
+.container-testimonials .wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.container-testimonials .wrapper .title {
+  text-align: center;
+  font-size: 4.75em;
+  padding: 10px 0;
+  line-height: normal;
+  width: 85%;
+  line-height: 1;
+  margin: 3.5% auto;
+  font-family: "IMFellEnglishSC", sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+
+/*------------- Modal -------------*/
+.ant-modal.testimony-information .ant-modal-content {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.ant-modal.testimony-information .ant-modal-content .ant-modal-body {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 6em;
+}
+
+.ant-modal.testimony-information .ant-modal-content #close-testimony {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.ant-modal.testimony-information .ant-modal-content .avatar {
+  width: 125px;
+  margin: auto;
+  margin-bottom: 1.25em;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 16px 4px gold;
+}
+
+.ant-modal.testimony-information .ant-modal-content .title {
+  margin-top: 8px;
+  font-size: 1.75em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'IMFellEnglishSC', sans-serif;
+}
+
+.ant-modal.testimony-information .ant-modal-content .subtitle {
+  font-size: 1.25em;
+}
+
+.ant-modal.testimony-information .ant-modal-content .title,
+.ant-modal.testimony-information .ant-modal-content .subtitle {
+  text-align: center;
+  color: var(--bg-whea);
+}
+
+.ant-modal.testimony-information .ant-modal-content .autor-testimony {
+  font-size: 1.45em;
+  color: var(--bg-whea);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  white-space: break-spaces;
+}
+
+.ant-modal.testimony-information .ant-modal-content .subtitle,
+.ant-modal.testimony-information .ant-modal-content .quote-left,
+.ant-modal.testimony-information .ant-modal-content .quote-right {
+  display: block;
+}
+
+.ant-modal.testimony-information .ant-modal-content .quote-right {
+  float: right;
+}
+
+
+/*------------- Media queries -------------*/
+@media (max-width: 1024px) {
+  .container-testimonials .wrapper {
+    width: 100%;
+  }
+
+  .container-testimonials .wrapper .title {
+    text-align: center;
+    font-size: 4.5em;
+  }
+  
+  .container-testimonials .wrapper .testimonials .testimony .author {
+    font-size: 1.45em;
+  }
+
+  .container-testimonials .wrapper .testimonials .testimony .author-testimony {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 900px) {
+  .container-testimonials .wrapper .title {
+    width: 90%;
+  }
+  .container-testimonials .wrapper .testimonials .testimony {
+    width: 40%;
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-testimonials .wrapper .testimonials .testimony {
+    width: 45%;
+  }
+
+  .ant-modal.testimony-information .ant-modal-content .ant-modal-body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-testimonials .wrapper .title {
+    text-align: center;
+    font-size: 4em;
+  }
+
+  .container-testimonials .wrapper .testimonials .testimony {
+    width: 85%;
+    margin: 12px 0;
+  }
+
+  .ant-modal.testimony-information .ant-modal-content #close-testimony {
+    top: -5%;
+  }
+
+  .ant-modal.testimony-information .ant-modal-content .autor-testimony {
+    line-height: 1.5;
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-testimonials .wrapper .testimonials .testimony {
+    width: 90%;
+  }
+}
+
+@media (max-width: 360px) {
+  .container-testimonials .wrapper {
+    font-size: 4vw;
+  }
+}

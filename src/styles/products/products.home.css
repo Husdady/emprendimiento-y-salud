@@ -263,74 +263,8 @@
   font-family: "Rubik";
 }
 
-#products-container>.wrapper .products .product .add-to-orders {
+#products-container>.wrapper .products .product .visualize {
   width: 90%;
   padding-top: 7px;
   padding-bottom: 7px;
-}
-
-/*------------- Tabla de pedidos -------------*/
-#products-container>.wrapper .my-orders {
-  width: 94%;
-}
-
-#products-container>.wrapper .my-orders .ant-table-content::-webkit-scrollbar {
-  display: none;
-}
-
-#products-container>.wrapper .my-orders .ant-table-content {
-  overflow: auto hidden; 
-}
-
-#products-container>.wrapper .my-orders .ant-table-content .status .ant-tag {
-  margin-right: 0;
-}
-
-#products-container>.wrapper .my-orders .ant-table-thead > tr > th {
-  font-weight: bold;
-  text-align: center;
-}
-
-/*------------- Detalles del pedido -------------*/
-.ant-modal.order-details figure {
-  width: 35%;
-  min-width: 150px;
-}
-
-.ant-modal.order-details .information {
-  width: 65%;
-  padding-left: 15px;
-  padding-right: 15px;
-  max-height: 175px;
-  overflow-y: auto;
-}
-
-.ant-modal.order-details .information::-webkit-scrollbar {
-  width: 4px;
-}
-
-.ant-modal.order-details .information::-webkit-scrollbar-track {
-  background-color: var(--bg-white);
-}
-
-.ant-modal.order-details .information::-webkit-scrollbar-thumb {
-  background-color: var(--bg-gray-100);
-}
-
-.ant-modal.order-details .information .title,
-.ant-modal.order-details .information .value {
-  font-family: "Noto Sans", sans-serif;
-}
-
-.ant-modal.order-details .information .increase,
-.ant-modal.order-details .information .decrease,
-.ant-modal.order-details .information .stock {
-  width: 20%;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-.ant-modal.order-details .information .stock {
-  width: 60%;
-  outline: 1px solid rgba(0, 0, 0, .06);
 }

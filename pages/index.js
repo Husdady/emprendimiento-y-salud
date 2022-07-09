@@ -21,7 +21,7 @@ import businessSections from '@assets/json/home/business-sections.json'
 const Section = dynamic(() => import('@root/src/components/layouts/home/Home.Section'))
 
 // Contenedor principal
-const Container = dynamic(() => import('@root/src/components/layouts/common/Container'))
+const MainContainer = dynamic(() => import('@root/src/containers/MainContainer'))
 
 // Información sobre los productos Omnilife y Seytú
 const Information = dynamic(() => import('@root/src/components/layouts/home/Home.Information'))
@@ -33,7 +33,7 @@ const Membership = dynamic(() => import('@root/src/components/layouts/home/Home.
 const Business = dynamic(() => import('@root/src/components/layouts/home/Home.Business'))
 
 // Testimonios Omnilife
-const Testimonials = dynamic(() => import('@root/src/components/layouts/home/Home.Testimonials'))
+const Testimonials = dynamic(() => import('@root/src/containers/Testimonials'))
 
 const buttonStyle = {
   padding: 10,
@@ -71,7 +71,7 @@ class Home extends Component {
 
   render() {
     return (
-      <Container>
+      <MainContainer>
         <HomeHeader />
 
         {/* Secciones iniciales de la página */}
@@ -91,7 +91,7 @@ class Home extends Component {
 
         {/* Testimonios Omnilife */}
         <Testimonials renderExtraContent={this.renderButton.bind(this)} />
-      </Container>
+      </MainContainer>
     )
   }
 }

@@ -12,6 +12,7 @@
       "@styles/*": ["src/styles/*"],
       "@redux/*": ["src/redux/*"],
       "@utils/*": ["src/utils/*"],
+      "@containers/*": ["src/containers/*"],
       "@layouts/*": ["src/components/layouts/*"],
       "@common": ["src/components/common/_exports"],
     	"@headers": ["src/components/headers/_exports"],

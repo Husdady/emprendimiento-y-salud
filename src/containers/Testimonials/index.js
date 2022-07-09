@@ -3,8 +3,8 @@ import { Component, createRef } from 'react'
 
 // Components
 import { Empty } from '@common'
-import Testimony from '@layouts/testimonials/Testimony'
-import Modal from '@layouts/testimonials/Testimony.Modal'
+import Testimony from '@root/src/components/layouts/testimony/Testimony.Card'
+import Modal from '@layouts/testimony/Testimony.Modal'
 
 // API
 import { getLastestTestimonials } from '@api/testimonials'

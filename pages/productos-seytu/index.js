@@ -3,12 +3,14 @@ import { Component, Fragment } from 'react'
 
 // Components
 import { Divider } from '@common'
-import Container from '@root/src/components/layouts/common/Container'
 import FiltersForm from '@root/src/components/layouts/form/Filters.Form'
 import TabContainer from '@root/src/components/layouts/products/tabs/Tab.Container'
 import Categories from '@root/src/components/layouts/products/filters/Filters.Categories'
 import Search from '@root/src/components/layouts/products/filters/Filters.Search'
 import OrderBy from '@root/src/components/layouts/products/filters/Filters.OrderBy'
+
+// Containers
+import MainContainer from '@root/src/containers/MainContainer'
 
 // Headers
 import { SeytuProductsHeader } from '@headers'
@@ -40,7 +42,7 @@ export default class SeytuProducts extends Component {
         {/* Head */}
         <SeytuProductsHeader />
 
-        <Container>
+        <MainContainer>
           <section id="products-container" className="shortcut-13ms8k" company="seytu">
             <div className="wrapper mx-auto rounded-2">
               {/* Filtros */}
@@ -69,7 +71,7 @@ export default class SeytuProducts extends Component {
               <TabContainer company="seytu" />
             </div>
           </section>
-        </Container>
+        </MainContainer>
       </Fragment>
     )
   }

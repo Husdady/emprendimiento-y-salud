@@ -1,8 +1,8 @@
 // React
 import { Component, Fragment } from 'react'
 
-// Components
-import Container from '@layouts/common/Container'
+// Containers
+import MainContainer from '@root/src/containers/MainContainer'
 
 // Headers
 import { OmnilifeHistoryHeader } from '@headers'
@@ -61,14 +61,14 @@ export default class OmnilifeHistory extends Component {
         {/*Head*/}
         <OmnilifeHistoryHeader />
 
-        <Container>
+        <MainContainer>
           <div id="omnilife-history" className="shortcut-p120j" style={imageStyle}>
             <div className="wrapper" />
 
             {/* Renderizar historia de omnilife */}
             {omnilifeHistory.map(this.renderElementType)}
           </div>
-        </Container>
+        </MainContainer>
       </Fragment>
     )
   }

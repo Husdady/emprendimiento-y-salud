@@ -2,14 +2,14 @@
 import { Component, Fragment } from 'react'
 
 // Components
-import Header from './Header'
+import Header from '@layouts/common/Header'
 
 // Librarys
 import dynamic from 'next/dynamic'
 
-const Footer = dynamic(() => import('./Footer'))
+const Footer = dynamic(() => import('@layouts/common/Footer'))
 
-export default class Container extends Component {
+export default class MainContainer extends Component {
   render() {
     return (
       <Fragment>

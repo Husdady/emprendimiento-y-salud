@@ -2,9 +2,11 @@
 import { Component, Fragment } from 'react'
 
 // Components
-import Container from '@layouts/common/Container'
 import Information from '@layouts/membership/Membership.Information'
 import ContentTable from '@layouts/membership/Membership.ContentTable'
+
+// Containers
+import MainContainer from '@root/src/containers/MainContainer'
 
 // Headers
 import { AffiliateProgramHeader } from '@headers'
@@ -31,7 +33,7 @@ export default class AffiliateProgram extends Component {
         {/* Head */}
         <AffiliateProgramHeader />
 
-        <Container>
+        <MainContainer>
           <div className="affiliate-program flex jc-around shortcut-qe18n">
             {/* Información acerca del programa de afiliados */}
             <Information />
@@ -39,7 +41,7 @@ export default class AffiliateProgram extends Component {
             {/* Tabla de contenido */}
             <ContentTable />
           </div>
-        </Container>
+        </MainContainer>
       </Fragment>
     )
   }

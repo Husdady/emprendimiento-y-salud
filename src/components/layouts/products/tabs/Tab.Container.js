@@ -13,16 +13,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // Actions
 import getProductsActions from '@redux/actions/products'
 
-// Reducers
-import { getProductsState } from '@redux/reducers/products'
-
 // Utils
 import { createState, createDispatch } from '@utils/Helper'
 
 const loading = () => <Loading />
 
 // Tabs
-const MyOrders = dynamic(() => import('./Tab.MyOrders'), { loading })
 const Products = dynamic(() => import('./Tab.Products'), { loading })
 const MyFavoriteProducts = dynamic(() => import('./Tab.MyFavoriteProducts'), { loading })
 
@@ -41,12 +37,7 @@ class TabContainer extends Component {
         id: 'tab-dfj418',
         name: <Title icon="star">Mis productos favoritos</Title>,
         component: <MyFavoriteProducts company={this.props.company} />,
-      },
-      {
-        id: 'tab-zmn030',
-        name: <Title icon="boxes">Mis pedidos</Title>,
-        component: <MyOrders company={this.props.company} />,
-      },
+      }
     ]
   }
 

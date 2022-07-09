@@ -61,7 +61,7 @@ export default class Button extends Component {
 
   // Evento click en el botón
   handleClick(e) {
-    event.stopPropagation()
+    e.stopPropagation()
 
     this.clickCount++
 

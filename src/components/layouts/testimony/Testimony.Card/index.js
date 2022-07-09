@@ -11,7 +11,7 @@ import LazyLoad from 'react-lazyload'
 // Utils
 import { truncate } from '@utils/Helper'
 
-export default class Testimony extends Component {
+export default class TestimonyCard extends Component {
   state = {
     height: 407,
   }

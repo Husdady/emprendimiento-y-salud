@@ -2,9 +2,11 @@
 import { Component, Fragment, createRef } from 'react'
 
 // Components
-import Container from '@root/src/components/layouts/common/Container'
 import Scroller from '@root/src/components/layouts/common/Scroller'
-import Testimonials from '@root/src/components/layouts/home/Home.Testimonials'
+
+// Containers
+import MainContainer from '@root/src/containers/MainContainer'
+import Testimonials from '@root/src/containers/Testimonials'
 
 // Headers
 import { TestimonialsHeader } from '@headers'
@@ -98,11 +100,11 @@ export default class OmnilifeTestimonials extends Component {
         {/* Head */}
         <TestimonialsHeader />
 
-        <Container>
+        <MainContainer>
           <Scroller limit={this.limit} className="shortcut-a19mz" onLoadMore={this.onLoadMore} loadMoreButton={this.loadMoreButton}>
             <Testimonials ref={this.refTestimonials} pagination="active" />
           </Scroller>
-        </Container>
+        </MainContainer>
       </Fragment>
     )
   }

@@ -2,15 +2,16 @@
 import { Component, Fragment } from 'react'
 
 // Component
-import Container from '@layouts/common/Container'
 import ProductImages from '@layouts/product/Product.Images'
 import ProductNotFound from '@layouts/product/Product.NotFound'
 import ProductInformation from '@layouts/product/Product.Information'
 import { renderAleatoryProducts } from '@layouts/products/common/Products.Aleatory'
 
+// Containers
+import MainContainer from '@root/src/containers/MainContainer'
+
 // Librarys
-import Head from 'next/head'
-import Router, { withRouter } from 'next/router'
+import { withRouter } from 'next/router'
 
 // Headers
 import { ProductHeader, LoadingProductHeader } from '@headers'
@@ -120,7 +121,7 @@ class SeytuProduct extends Component {
     })
 
     return (
-      <Container>
+      <MainContainer>
         <section className="container-product flex position-relative mx-auto shortcut-25sc0" company="seytu">
           {/* Producto Seytú */}
           {this.renderSeytuProduct()}
@@ -131,7 +132,7 @@ class SeytuProduct extends Component {
 
         {/* Productos Omnilife aleatorios */}
         {aleatoryOmnilifeProducts}
-      </Container>
+      </MainContainer>
     )
   }
 }

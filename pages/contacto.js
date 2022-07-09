@@ -2,8 +2,10 @@
 import { Component, Fragment } from 'react'
 
 // Components
-import Container from '@root/src/components/layouts/common/Container'
 import Loading from '@root/src/components/layouts/loaders/Loading.Preload'
+
+// Containers
+import MainContainer from '@root/src/containers/MainContainer'
 
 // Librarys
 import { Row, Col } from 'antd'
@@ -242,11 +244,11 @@ export default class Contact extends Component {
         {/* Head */}
         <ContactHeader />
 
-        <Container>
+        <MainContainer>
           <div id="contact-information" className="py-5 shortcut-xg31b">
             <div className={wrapperClasses}>{this.renderContent()}</div>
           </div>
-        </Container>
+        </MainContainer>
       </Fragment>
     )
   }

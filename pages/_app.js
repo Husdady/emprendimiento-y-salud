@@ -2,6 +2,7 @@
 import { useEffect, useState, useCallback, useMemo } from 'react'
 
 // Components
+import AppInMaintenance from '@root/src/containers/AppInMaintenance'
 import Loading from '@root/src/components/layouts/loaders/Loading.Preload'
 
 // Librarys
@@ -16,6 +17,9 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 
 // Reducers
 import { wrapper } from '@redux/store'
+
+// API
+import { APP_IN_MAINTENANCE } from '@api/credentials'
 
 // Utils
 import { isWindowAvailable } from '@utils/Validations'
@@ -33,8 +37,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import '@assets/styles/fonts.css'
 import '@assets/styles/global.css'
 import '@assets/styles/bootstrap.css'
-import '@assets/styles/header.css'
-import '@assets/styles/footer.css'
+import '@layouts/common/Header/styles.css'
+import '@layouts/common/Footer/styles.css'
 
 // Loaders
 import '@styles/loaders/loading.cubes.css'
@@ -67,8 +71,8 @@ import '@styles/products/products.omnilife.css'
 import '@styles/products/product.information.css'
 
 // Testimonials Styles
-import '@styles/testimonials/index.css'
-import '@styles/testimonials/testimony.css'
+import '@containers/Testimonials/styles.css'
+import '@layouts/testimony/Testimony.Card/styles.css'
 
 library.add(far, fas, fab)
 
@@ -114,6 +118,10 @@ function MyApp({ Component, pageProps }) {
   const renderContent = useMemo(() => {
     if (isLoading) {
       return <Loading />
+    }
+
+    if (eval(APP_IN_MAINTENANCE)) {
+      return <AppInMaintenance />
     }
 
     return <Component {...pageProps} />
