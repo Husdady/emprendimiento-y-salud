@@ -2,7 +2,7 @@
 import { Component } from 'react'
 
 // Components
-import Loading from '@layouts/loaders/Loading.Preload'
+import Loading from '@layouts/loaders/Preload'
 
 // Librarys
 import { Skeleton } from 'antd'

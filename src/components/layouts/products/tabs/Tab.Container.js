@@ -2,7 +2,7 @@
 import { Component, Fragment } from 'react'
 
 // Components
-import Loading from '@layouts/loaders/Loading.Preload'
+import Loading from '@layouts/loaders/Preload'
 
 // Librarys
 import { Tabs } from 'antd'

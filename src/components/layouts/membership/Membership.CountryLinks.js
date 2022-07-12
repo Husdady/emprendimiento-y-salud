@@ -8,9 +8,6 @@ import { Dropdown } from '@common'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-// Utils
-import { isArray } from '@utils/Validations'
-
 // JSON
 import clientLinks from '@assets/json/membership/client-links.json'
 import entreprenuerLinks from '@assets/json/membership/entreprenuer-links.json'

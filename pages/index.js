@@ -18,19 +18,19 @@ import aboutSeytuProducts from '@assets/json/home/about-seytu-products.json'
 import businessSections from '@assets/json/home/business-sections.json'
 
 // Secciones iniciales
-const Section = dynamic(() => import('@root/src/components/layouts/home/Home.Section'))
+const Section = dynamic(() => import('@root/src/components/layouts/home/Section'))
 
 // Contenedor principal
 const MainContainer = dynamic(() => import('@root/src/containers/MainContainer'))
 
 // Información sobre los productos Omnilife y Seytú
-const Information = dynamic(() => import('@root/src/components/layouts/home/Home.Information'))
+const Information = dynamic(() => import('@root/src/components/layouts/home/Information'))
 
 // Afiliación sobre el negocio
-const Membership = dynamic(() => import('@root/src/components/layouts/home/Home.Membership'))
+const Membership = dynamic(() => import('@root/src/components/layouts/home/Membership'))
 
 // Datos sobre el negocio
-const Business = dynamic(() => import('@root/src/components/layouts/home/Home.Business'))
+const Business = dynamic(() => import('@root/src/components/layouts/home/Business'))
 
 // Testimonios Omnilife
 const Testimonials = dynamic(() => import('@root/src/containers/Testimonials'))

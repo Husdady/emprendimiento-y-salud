@@ -49,5 +49,9 @@
     "@redux-devtools/extension": "3.2.2",
     "dotenv": "10.0.0",
     "file-loader": "6.2.0"
+  },
+  "engines": {
+    "node": ">= 14.19.0",
+    "npm": ">= 7.x"
   }
 }

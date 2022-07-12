@@ -2,7 +2,7 @@
 import { Component, Fragment } from 'react'
 
 // Components
-import Loading from '@root/src/components/layouts/loaders/Loading.Preload'
+import Loading from '@root/src/components/layouts/loaders/Preload'
 
 // Containers
 import MainContainer from '@root/src/containers/MainContainer'

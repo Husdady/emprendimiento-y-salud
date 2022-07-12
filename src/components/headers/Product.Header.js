@@ -3,7 +3,7 @@ import { Component, Fragment } from 'react'
 
 // Librarys
 import Head from 'next/head'
-import Loading from '@layouts/loaders/Loading.Cubes'
+import Loading from '@layouts/loaders/Cubes'
 
 // API
 import { APP_NAME } from '@api/credentials'

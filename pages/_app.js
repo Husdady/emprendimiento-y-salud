@@ -3,7 +3,7 @@ import { useEffect, useState, useCallback, useMemo } from 'react'
 
 // Components
 import AppInMaintenance from '@root/src/containers/AppInMaintenance'
-import Loading from '@root/src/components/layouts/loaders/Loading.Preload'
+import Loading from '@root/src/components/layouts/loaders/Preload'
 
 // Librarys
 import Router from 'next/router'
@@ -41,27 +41,27 @@ import '@layouts/common/Header/styles.css'
 import '@layouts/common/Footer/styles.css'
 
 // Loaders
-import '@styles/loaders/loading.cubes.css'
-import '@styles/loaders/loading.preload.css'
+import '@layouts/loaders/Cubes/styles.css'
+import '@layouts/loaders/Preload/styles.css'
 
 // 404 Styles
-import '@styles/404/page-not-found.css'
+import '@styles/page-not-found.css'
 
 // Contact Styles
-import '@styles/contact/index.css'
+import '@styles/contact.css'
 
 // Omnilife History Styles
-import '@styles/omnilife-history/index.css'
+import '@styles/omnilife-history.css'
 
 // Home Styles
-import '@styles/home/home.business.css'
-import '@styles/home/home.information.css'
-import '@styles/home/home.membership.css'
-import '@styles/home/home.product.css'
-import '@styles/home/home.section.css'
+import '@layouts/home/Business/styles.css'
+import '@layouts/home/Information/styles.css'
+import '@layouts/home/Membership/styles.css'
+import '@layouts/home/Product/styles.css'
+import '@layouts/home/Section/styles.css'
 
 // Affiliat Program Styles
-import '@styles/membership/index.css'
+import '@styles/membership.css'
 
 // Products Styles
 import '@styles/products/products.home.css'

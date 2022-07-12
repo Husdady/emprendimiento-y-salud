@@ -1,0 +1,67 @@
+.about-omnilife-business {
+  padding-top: 5%;
+  background-color: #DEDEDE;
+}
+
+.about-omnilife-business .wrapper {
+  padding-bottom: 14%;
+}
+
+.about-omnilife-business .wrapper .business-item {
+  width: 42%;
+  margin: 10px;
+}
+
+.about-omnilife-business .wrapper .business-item .title {
+  font-size: 2.35em;
+  line-height: normal;
+}
+
+.about-omnilife-business .wrapper .business-item .description {
+  font-size: 1.35em;
+  line-height: 30px;
+}
+
+.about-omnilife-business .wrapper .business-item, .about-omnilife-business .wrapper .business-item .title {
+  color: #005571;
+}
+
+/*------------- Media queries -------------*/
+@media (max-width: 1080px) {
+  .about-omnilife-business .wrapper .business-item {
+    width: 45%;
+    margin: 15px;
+  }
+}
+
+@media (max-width: 960px) {
+  .about-omnilife-business .wrapper .business-item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-omnilife-business .wrapper {
+    padding: 14% 0 24%;
+  }
+
+  .about-omnilife-business .wrapper .business-item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-omnilife-business .wrapper .business-item {
+    width: 95%;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-omnilife-business .wrapper .business-item {
+    font-size: 4.15vw;
+  }
+  
+  .about-omnilife-business .wrapper .business-item .description {
+    line-height: 10vw;
+  }
+}

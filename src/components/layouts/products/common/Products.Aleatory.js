@@ -2,7 +2,7 @@
 import { Component, createRef } from 'react'
 
 // Components
-import Product from '@layouts/home/Home.Product'
+import Product from '@root/src/components/layouts/home/Product'
 import Skeleton from '@layouts/skeletons/Skeleton.AleatoryProducts'
 
 // Librarys
